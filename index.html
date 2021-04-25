@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="nav-logo">
+        <i data-feather="anchor" class="icon"></i>
+        <span class="brand">Anchor Ship</span>
+      </div>
+      <ul class="nav-list">
+        <li>
+          <a> <i data-feather="home" class=" active" class="icon"> </i>home</a>
+        </li>
+        <li>
+          <a> <i data-feather="briefcase" class="icon"> </i>wallet</a>
+        </li>
+        <li>
+          <a> <i data-feather="bar-chart" class="icon"> </i>statistics</a>
+        </li>
+        <li>
+          <a><i data-feather="mail" class="icon"> </i>messages </a>
+        </li>
+        <li>
+          <a><i data-feather="file" class="icon"> </i> documents</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="remaining">
+      <header class="header">
+        <div class="search">
+          <i data-feather="search" class="icon"></i>
+          <input type="text" class="header-search"placeholder="Search.....">
+        </div>
+        <div class="bell"><i data-feather="bell" class="icon"></i></div>
+        <div class="profilep"><i data-feather="user" class="icon"></i></div>
+      </header>
+      <div class="inner-row">
+        <div class="inner-col">
+          <article>Article</article>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
